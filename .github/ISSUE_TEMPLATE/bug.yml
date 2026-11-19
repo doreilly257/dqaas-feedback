@@ -1,0 +1,20 @@
+name: Bug report
+description: Something did not work or looked wrong.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not paste data, credentials, tokens or personal details, and blur screenshots.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part did you use?
+      options: [Console, In-browser mode, REST API, CLI, MCP, Docs or website]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do, what happened, and what did you expect?
+    validations:
+      required: true

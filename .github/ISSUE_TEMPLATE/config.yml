@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem (private)
+    url: https://dqaas.io/security/
+    about: Do not open a public issue for a vulnerability. Email security@dqaas.io.
+  - name: Send feedback by email (private)
+    url: mailto:feedback@dqaas.io
+    about: Use email if you would rather not post publicly.

@@ -1,0 +1,13 @@
+name: Feedback or idea
+description: Something confusing, missing, or that could be better.
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not paste data, credentials, tokens or personal details.
+  - type: textarea
+    id: what
+    attributes:
+      label: What would help?
+    validations:
+      required: true
